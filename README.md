@@ -15,7 +15,7 @@ Because the "Contract" (`@marybngozi/socket-types`) lives in the `socket-api` re
 
 ### 1\. Link the API Types
 
-Open your terminal in the **`socket-api/packages/api-types`** directory:
+Open your terminal in the **`socket-api/packages/socket-types`** directory:
 
 ```bash
 npm install
@@ -62,7 +62,7 @@ All core interfaces (like `ReportItem` and `ChartType`) are defined once in the 
 
 To see the power of this setup:
 
-1.  Open `socket-api/packages/api-types/src/report.ts`.
+1.  Open `socket-api/packages/socket-types/src/report.ts`.
 2.  Change the `chartType` enum (e.g., rename `"bar-chart"` to `"column-chart"`).
 3.  Run `npm run build` in that folder.
 4.  Switch back to this project. You will see **Immediate TypeScript Errors** in `App.tsx` and `ReportSidebar.tsx`.
