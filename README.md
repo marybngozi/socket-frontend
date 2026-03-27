@@ -11,7 +11,7 @@ This is the Frontend portion of the **JUDE Session (March Week 4)**. It demonstr
 
 ## 🛠️ Local Development Setup
 
-Because the "Contract" (`@socket/api-types`) lives in the `socket-api` repository, you must link them locally to see real-time updates.
+Because the "Contract" (`@marybngozi/socket-types`) lives in the `socket-api` repository, you must link them locally to see real-time updates.
 
 ### 1\. Link the API Types
 
@@ -28,8 +28,8 @@ npm link
 Open your terminal in this **`socket-frontend`** directory:
 
 ```bash
+npm link @marybngozi/socket-types
 npm install
-npm link @socket/api-types
 ```
 
 ### 3\. Start the Dashboard
@@ -54,7 +54,7 @@ All core interfaces (like `ReportItem` and `ChartType`) are defined once in the 
 ### Key sample files
 
   - `src/App.tsx`: The main dashboard canvas.
-  - `src/components/ReportSidebar.tsx`: A property-drawer component that strictly follows the `@socket/api-types` contract.
+  - `src/components/ReportSidebar.tsx`: A property-drawer component that strictly follows the `@marybngozi/socket-types` contract.
 
 -----
 

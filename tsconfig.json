@@ -17,7 +17,7 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@socket/api-types": ["node_modules/@socket/api-types"]
+      "@marybngozi/socket-types": ["node_modules/@marybngozi/socket-types"]
     }
   },
   "include": ["src"]

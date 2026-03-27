@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { type ReportItem } from '@socket/api-types'
+import { type ReportItem } from '@marybngozi/socket-types'
 import ReportSidebar from './components/ReportSidebar'
 
 function App() {

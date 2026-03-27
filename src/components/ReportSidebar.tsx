@@ -1,5 +1,5 @@
 import React from 'react';
-import { type ReportItem } from '@socket/api-types';
+import { type ReportItem } from '@marybngozi/socket-types';
 
 interface Props {
   activeItem: ReportItem | null;
